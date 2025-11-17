@@ -55,10 +55,10 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/Lambi111/CI_CD_EXERCISE/myapp:latest .
-          docker tag ghcr.io/Lambi111/CI_CD_EXERCISE/myapp:latest ghcr.io/Lambi111/CI_CD_EXERCISE/myapp:${GIT_SHA}
+          docker build -t ghcr.io/Lambi111/ci_cd_exercise/myapp:latest .
+          docker tag ghcr.io/Lambi111/ci_cd_exercise/myapp:latest ghcr.io/Lambi111/ci_cd_exercise/myapp:${GIT_SHA}
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/Lambi111/CI_CD_EXERCISE/myapp:latest
-          docker push ghcr.io/Lambi111/CI_CD_EXERCISE/myapp:${GIT_SHA}
+          docker push ghcr.io/Lambi111/ci_cd_exercise/myapp:latest
+          docker push ghcr.io/Lambi111/ci_cd_exercise/myapp:${GIT_SHA}
