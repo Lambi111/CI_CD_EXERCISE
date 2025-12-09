@@ -9,9 +9,9 @@ public class CalculatorService {
      * Adds two numbers together.
      * BUG: This implementation is incorrect!
      */
-    public double add(double a, double b) {
+    public double add(double int1, double int2) {
         // TODO: Fix this - currently multiplies instead of adding
-        return a + b;
+        return int1 + int2;
         // SOLUTION: return a + b;
     }
 
