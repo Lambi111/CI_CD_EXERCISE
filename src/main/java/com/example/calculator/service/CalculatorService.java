@@ -19,9 +19,9 @@ public class CalculatorService {
      * Subtracts b from a.
      * BUG: This implementation is incorrect!
      */
-    public double subtract(double a, double b) {
+    public double subtract(double int1, double int2) {
         // TODO: Fix this - currently adds instead of subtracting
-        return a - b;
+        return int1 - int2;
         // SOLUTION: return a - b;
     }
 
